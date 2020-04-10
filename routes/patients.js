@@ -15,7 +15,8 @@ const router = express.Router();
 var {scoreOfDisease, Disease} = require('./../server/models/diseases.js');
 var {Patient} = require('./../server/models/patient.js');
 var {rooms, Room} = require('./../server/models/rooms.js');
-var isValidDate = require('is-valid-date');
+var validator = require('is-my-date-valid');
+const isValidDate = validator({ format: 'DD-MM-YYYY' })
 const {ObjectID} = require('mongodb');
 
 

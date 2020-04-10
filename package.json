@@ -20,7 +20,7 @@
     "express-session": ">=1.15.1",
     "express-validator": "^6.4.0",
     "hbs": ">=4.0.1",
-    "is-valid-date": ">=0.0.1",
+    "is-my-date-valid": ">=0.1.1",
     "lodash": ">=4.17.4",
     "mongodb": "^3.5.5",
     "mongoose": ">=5.7.5",
